@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+article {
+    display: inline-block;
+    width: 320px;
+    height: 534px;
+    background-color: bisque;
+    margin: 15px;
+    
+} /*letter-spacing: normal; + прописать для боди: body {letter-spacing: -.36em;} тогда отступы уйдут*/
+
+/*.bolt {
+    background-color: rgb(100, 100, 228);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.alicha {
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.havan {
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.markiz {
+        margin-left: 30px;
+        margin-top: 30px;
+        position: relative;
+} - изначально я ставила такие параметры для блоков, но первый отображался корректно как надо, а остальные посьезжали как им угодно. только когда
+прописала стили инлайн , оно заработало. почему так? */
+
+.bolt {
+    background-color: rgb(100, 100, 228);
+}
+
+.bolt-desription {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+article div {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9px;
+    margin-top: 5px;
+
+}
+
+.alicha {
+    background-color: red;
+}
+
+.havan {
+    background-color: red;
+}
+
+.markiz {
+background-color: rgb(100, 100, 228);
+}
+
+.alicha-description {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.havan-description{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.markiz-description {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.article2 {
+        display: inline-block;
+        width: 320px;
+        height: 534px;
+        background-color: bisque;
+        margin: 15px;   
+}
