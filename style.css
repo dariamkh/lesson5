@@ -71,7 +71,24 @@ article div {
 }
 
 .markiz {
-background-color: rgb(100, 100, 228);
+    background-color: rgb(100, 100, 228);
+}
+
+.palyanitsya {
+    background-color: red;
+    margin-top: 15px;
+}
+
+.zirka {
+    background-color: red;
+}
+
+.dynya {
+    background-color: red;
+}
+
+.bortsch {
+    background-color: rgb(100, 100, 228);
 }
 
 .alicha-description {
@@ -98,10 +115,35 @@ background-color: rgb(100, 100, 228);
     font-size: 13px;
 }
 
-.article2 {
-        display: inline-block;
-        width: 320px;
-        height: 534px;
-        background-color: bisque;
-        margin: 15px;   
+.palyanitsya-description {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
 }
+
+.zirka-description {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.dynya-description {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.bortsch-description {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
